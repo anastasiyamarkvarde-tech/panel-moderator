@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+[contenteditable]:empty:before{content:attr(data-placeholder);color:#d1d5db;pointer-events:none}
+[contenteditable]:focus{outline:none}
